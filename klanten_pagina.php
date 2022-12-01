@@ -5,17 +5,16 @@
             .klantengegevens{
             position:absolute;
             top: 10vh;
-            
+
             }
         </style>
     </head>
     <body>
         <?php
-
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "Bestellen.db";
+        $HOST = "localhost";
+        $username = "deb85590p21k1t3";
+        $password = "Dsth42vla";
+        $dbname = "deb85590p21k1t3";
         ?>
         <div class="klantengegevens">
         <?php 
