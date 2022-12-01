@@ -2,6 +2,11 @@
 <html lang="nl">
     <head>
         <style>
+            .klantengegevens{
+            position:absolute;
+            top: 10vh;
+            
+            }
         </style>
     </head>
     <body>
@@ -12,6 +17,7 @@
         $password = "";
         $dbname = "Bestellen.db";
         ?>
+        <div class="klantengegevens">
         <?php 
     
         
@@ -35,5 +41,6 @@
         mysqli_close($conn);
 
            ?> 
+        </div>
     </body>
 </html>
